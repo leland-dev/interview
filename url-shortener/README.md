@@ -1,4 +1,4 @@
-# URL Shortener Take-Home Exercise
+# URL Shortener Take-Home Exercise (Fullstack)
 
 ## Instructions
 
