@@ -2,7 +2,7 @@
 
 ## Instructions
 
-Your task is to create an API for a simple book management system that allows users to manage information about authors and the books they have written. This exercise is intentionally open-ended, and you are welcome to implement your solution using the language and tech stack of your choice. If you are familiar with GraphQL, please use that for your submission (as opposed to a RESTful API). The core functionality of the application should be expressed through your own original code.
+Your task is to create an API for a simple book management system that allows users to manage information about authors and the books they have written. This exercise is intentionally open-ended, and you are welcome to implement your solution using the language and tech stack of your choice. The core functionality of the application should be expressed through your own original code.
 
 You should aim to spend no more than 2 hours on this project. If you don't complete everything in 2 hours, please submit what you have - we value your time and want to see your prioritization skills.
 
@@ -11,21 +11,17 @@ You should aim to spend no more than 2 hours on this project. If you don't compl
 Implement an API that allows users to perform CRUD (Create, Read, Update, Delete) operations on authors and books. Each author should have the following properties:
 
 ```
-- id (unique identifier)
 - name
 - bio
-- created at (timestamp)
 ```
 
 Each book should have the following properties:
 
 ```
-- id (unique identifier)
 - title
 - description
-- author id (foreign key referencing the author)
+- author
 - published date
-- created at (timestamp)
 ```
 
 The API should support the following operations:
@@ -40,16 +36,16 @@ The API should support the following operations:
 8. Retrieve a specific book by ID
 9. Update a book
 10. Delete a book
-11. Retrieve a list of all books written by a specific author
 
 ### Minimum Requirements
 
 * Implement all CRUD operations for authors and books
-* Implement the "list books by author" functionality
 * Use appropriate HTTP methods and status codes
 * Implement basic input validation
 * Authors and books do not need to persist across server shutdown/startup (i.e., setting up a DB isn't necessary - server memory should suffice)
 * Provide clear API documentation (can be in the README)
+
+> Note: There is no need to implement any form of authentication or authorization for this exercise
 
 If you have additional time, consider spending it on testing, error handling, or implementing more advanced features like searching, sorting, or filtering.
 
