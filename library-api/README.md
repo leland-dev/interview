@@ -30,12 +30,11 @@ The API should support the following operations:
 2. Retrieve a list of all authors
 3. Retrieve a specific author by ID
 4. Update an author
-5. Delete an author
-6. Create a new book
-7. Retrieve a list of all books
-8. Retrieve a specific book by ID
-9. Update a book
-10. Delete a book
+5. Create a new book
+6. Retrieve a list of all books
+7. Retrieve a specific book by ID
+8. Update a book
+9. Find all books written by an author
 
 ### Minimum Requirements
 
